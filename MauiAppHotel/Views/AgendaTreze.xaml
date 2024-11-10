@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.AgendaTreze"
+             Title="AgendaTreze"
+             NavigationPage.HasNavigationBar="false"
+             Background="{StaticResource Gray100Brush}">
+
+
+    
+     <VerticalStackLayout Padding="20" Spacing="10">
+        <Button Text="Sobre o Sistema"
+                FontFamily="Kalam"
+                FontSize="30"
+                TextColor="Bisque"
+                BackgroundColor="{StaticResource MidnightBlue}"/>
+         
+        <Frame BackgroundColor="{StaticResource Tertiary}">
+            <VerticalStackLayout>
+                <Image Source="hotel.png" 
+                      WidthRequest="300"
+                      HeightRequest="200"/>
+
+                <Label Text="Sistema desenvolvido sem fins lucrativos, apenas para aprendizagem." 
+                       FontSize="15"
+                       FontAttributes="Bold"
+                       Padding="10"
+                       TextColor="Honeydew"/>
+                <Label/>
+                <Label Text="Desenvolvido por:" 
+                       TextColor="Bisque"
+                       HorizontalTextAlignment="Center"/>
+                
+                <Label Text="Pedro Ferri Neto"
+                       HorizontalOptions="Center"/>
+                
+                <Label Text="© 2024"
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="Bold"/>
+
+            </VerticalStackLayout>         
+        </Frame>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>
