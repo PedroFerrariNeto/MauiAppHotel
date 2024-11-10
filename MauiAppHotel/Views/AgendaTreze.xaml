@@ -40,7 +40,13 @@
 
             </VerticalStackLayout>         
         </Frame>
-        
+
+        <Button Text="Voltar" 
+                HorizontalOptions="Center" 
+                Clicked="Button_Clicked"
+                BackgroundColor="{StaticResource MidnightBlue}"
+                TextColor="Bisque"/>
+
     </VerticalStackLayout>
     
 </ContentPage>
